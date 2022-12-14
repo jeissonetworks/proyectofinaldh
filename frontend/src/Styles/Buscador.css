@@ -1,0 +1,131 @@
+.App-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #545776;
+    width: 100%;
+    height: 150px;
+    position: sticky;
+    top: 80px;
+    z-index: 1;
+}
+
+.App-search h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.App-search p {
+    margin: 0;
+}
+
+.App-search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+.App-search .rmdp-container{
+    height: 40px;
+}
+
+.App-search .rmdp-input{
+    height: 40px !important;
+
+}
+
+.App-search select, .App-search .rmdp-input {
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 422px;
+    height: 40px;
+    appearance: none;
+    border: none;
+    overflow: scroll;
+}
+
+.App-search .calendario {
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 422px;
+    height: 40px;
+    appearance: none;
+    margin: 4px;
+    border: none;
+}
+
+.App-search .search-button, .datepicker-search-button {
+    width: 206px;
+    height: 40px;
+    background: var(--db-color-1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: var(--db-color-blanco);
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .App-search{
+        height: 139px;
+    }
+    
+    .App-search h1 {
+        font-size: 30px;
+    }
+    
+    .App-search p {
+        font-size: 14px;
+    }
+    
+    .App-search select, .App-search .rmdp-input {
+        width: 254px;
+    }
+    
+    .App-search .calendario {
+        width: 254px;
+    }
+    
+    .App-search .search-button {
+        width: 166px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .App-search{
+        min-width: 414px;
+        height: 263px;
+        
+    }
+    
+    .App-search form {
+        flex-direction: column;
+    }
+    
+    
+    .App-search select, .App-search .rmdp-input {
+        width: 393px;
+        height: 38px;
+    }
+    
+    .App-search .calendario {
+        width: 393px;
+        height: 38px;
+    }
+    
+    .App-search .search-button{
+        width: 393px;
+    }
+}

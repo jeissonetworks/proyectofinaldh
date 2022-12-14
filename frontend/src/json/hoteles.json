@@ -1,0 +1,64 @@
+[{
+    "id":1,
+    "crimg":"https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+    "category":"Hotel",
+    "title":"Saraco",
+    "location":"Punta Cana",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":2,
+    "crimg":"https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "category":"Hotel",
+    "title":"Johansson",
+    "location":"Austria",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":3,
+    "crimg":"https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "category":"Hostel",
+    "title":"Aguirre",
+    "location":"Guadalajara",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":4,
+    "crimg":"https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "category":"Hostel",
+    "title":"Dana",
+    "location":"Bali",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":5,
+    "crimg":"https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1560&q=80",
+    "category":"Departamento",
+    "title":"Perkins",
+    "location":"New York",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":6,
+    "crimg":"https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "category":"Departamento",
+    "title":"Tosolini",
+    "location":"Nápoles",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":7,
+    "crimg":"https://images.unsplash.com/photo-1621262331990-19861196e3ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "category":"B&B",
+    "title":"Holywell",
+    "location":"Londres",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+},
+{
+    "id":8,
+    "crimg":"https://images.unsplash.com/photo-1584132905271-512c958d674a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "category":"B&B",
+    "title":"Sasha",
+    "location":"Tailandia",
+    "description":"En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+}]

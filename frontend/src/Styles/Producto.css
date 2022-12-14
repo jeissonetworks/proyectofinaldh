@@ -1,0 +1,314 @@
+.product-header {
+    background-color: #545776;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    color: #fff;
+}
+
+.categoria-header {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F3F1ED;
+    text-align: start;
+}
+
+.nombre-header {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.product-header-ubicacion {
+    background: #54577622;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    color: #fff;
+}
+
+.ubicacion-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383B58;
+    margin-left: 0.5rem;
+}
+.product-images{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+.product-images img{
+    max-width: 400px;
+    padding: 1rem;
+}
+.descripcion{
+    padding:  0 2rem;
+    text-align: left;
+    color: #383B58;
+}
+.titulo-descripcion{
+ margin: 2rem 0;
+}
+.product-descripcion{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;  
+    margin: 2rem 0;
+}
+.product-descripcion span{
+    white-space: pre-line;
+}
+.titulo-caracteristicas{
+    margin: 2rem 0 1rem 2rem;
+}
+.hr-caracteristicas{
+    border-bottom: 1px solid #1DBEB4
+}
+.caracteristicas{
+    color: #383B58;
+    display: flex;
+  flex-wrap: wrap;
+}
+.caracteristicas div{
+    margin: 2rem;
+    width: 18%;
+    text-align: left;
+}
+.mapa{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.mapa h2{
+    font-size: 20px;
+    color: #383B58;
+    margin-bottom: 2rem;
+}
+.caracteristicas h1{
+    margin: 2rem 0;
+}
+.caracteristicas span{
+    white-space: pre-line;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    z-index: 0 !important;
+}
+
+.bodyform{
+    background: #54577629;
+    padding: 2rem;
+    text-align: left;
+    outline: none;
+}
+.bodyform h1{
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin: 1rem 0;
+color: #383B58;
+}
+.inputurl{
+    /* blanco */
+
+background: #FFFFFF;
+/* input shadow */
+
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px ;
+border: none ;
+outline: none ;
+width: 100%;
+padding: 1rem;
+height: 3.5rem;
+}
+
+.formproducto{
+    background: #FFFFFF;
+border: 1px solid #DFE4EA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+padding: 2rem;
+}
+
+.imag{
+  
+    background: #5457760f;  
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+}
+
+
+.formproducto h3{
+    margin: 0.5rem 0;
+}
+
+.w50{
+    width: 50%;
+    display: inherit;
+    padding: 0.5rem;
+}
+.w30{
+    width: 33%;
+    display: inherit;
+    padding: 0.5rem;
+}
+.w30 img{
+    width: 30px;
+    height: 30px;
+}
+.w100{
+    width: 100%;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.w100 h3{
+    font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #383B58;
+}
+.w100 h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* B -DB COLOR 3 */
+    
+    color: #545776;
+    padding: 0.5rem 0;
+
+}
+.w100 h5{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    
+    /* B - DB COLOR 2 */
+    
+    color: #383B58;
+    padding: 0.5rem 0;
+}
+.w100 textarea{
+    width: 100% !important;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+padding: 1rem;
+
+/* gris suave 2 */
+
+color: #BEBEBE;
+}
+
+.css-dmmspl-MuiFormGroup-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-flex-direction: column; */
+    flex-direction: inherit !important; 
+    -webkit-box-flex-wrap: wrap;
+    /* -webkit-flex-wrap: wrap; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.som{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+
+.agregar {
+    background: #1DBEB4;
+    padding: 1rem;
+    color: #fff;
+    font-size: 40px;
+    width: 55px;
+    height: 54px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.eliminar {
+    background: #545776;
+    padding: 1rem;
+    color: #fff;
+    font-size: 36px;
+    width: 52px;
+    height: 54px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.crear{
+    background: #1DBEB4;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    color: #fff;
+    padding: 1rem 8rem;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    display: flex;
+    margin: 3rem auto 2rem;
+    cursor: pointer;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+
+    z-index: 0 !important;
+}
+
+.MuiInputBase-root {
+   
+    background-color: transparent !important;
+}
+
+form textarea:focus {
+    border: 1px solid #1DBEB4 !important;
+    box-shadow: 0px 0px 5px 1px rgba(29, 190, 180, 0.8) !important;
+  }
+  form input:focus {
+    border: 1px solid #1DBEB4 !important;
+    box-shadow: 0px 0px 5px 1px rgba(29, 190, 180, 0.8) !important;
+  }
+  form select:focus {
+    border: 1px solid #1DBEB4 !important;
+    box-shadow: 0px 0px 5px 1px rgba(29, 190, 180, 0.8) !important;
+  }

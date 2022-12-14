@@ -1,0 +1,59 @@
+.rdrYearPicker{
+    display: none !important;
+}
+
+.rdrMonthPicker select{
+    font-size: 14px;
+    background: none;
+    text-transform: capitalize;
+}
+
+.rdrMonth{
+    overflow: hidden;
+}
+
+.rdrMonths{
+    background: linear-gradient(#F3F1ED, #F3F1ED) no-repeat center/2px 90%;
+    justify-content: space-around;
+}
+
+.rdrDay{
+    box-shadow: none;
+}
+
+.rdrDayHovered, .rdrDay:focus{
+    color: transparent !important;
+}
+
+.rdrDayDisabled span{
+    text-decoration: line-through;
+    color: #d5dce0;
+}
+
+.rdrSelected{
+    color:#1DBEB4 !important;
+    border-radius: 2rem !important;
+    left: 10px;
+    right:10px;
+}
+
+.rdrWeekDay{
+    text-transform: uppercase;
+    color: #383B58;
+}
+
+.rdrCalendarWrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 5px 5px;
+    min-width: 66.66%;
+}
+
+.rdrCalendarWrapper button , .rdrCalendarWrapper button:hover{
+    background: none;
+    background-color: white;
+}
+
+.rdrMonthAndYearWrapper {
+    padding: 0;
+}

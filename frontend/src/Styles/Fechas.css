@@ -1,0 +1,156 @@
+.fechas-bg {
+    width: 100%;
+    max-height: 100%;
+    background-color:rgba(56, 59, 88, 0.1);
+}
+
+.fechas-contenedor{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-around;
+    /* border: 3px red solid; */
+}
+
+.fechas-bg h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #383B58;
+    text-align: left;
+}
+
+.fechas-bg h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F4F50;
+    text-align: left;
+    padding: 10px;
+}
+
+.fechas-boton-reserva{
+    background: #1DBEB4;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 991.99px){
+
+    .fechas-bg{
+        padding: 15px 30px;
+    }
+
+    .fechas-contenedor{
+        flex-direction: row;
+        align-items: center;
+        gap:20px;
+    }
+
+    .fechas-calendario{
+        width: 66.66%;
+    }
+
+    .fechas-boton-reserva{
+        width: 100%;
+        max-width: 379px;
+    }
+
+    .contenedor-reservas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 33.33%;
+        height: 149px;
+        max-width: 410px;
+        background-color: white;
+        border: 3px red solid;
+        border: 1px solid #DFE4EA;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .fechas-bg h3{
+        padding: 10px 20px;
+    }
+
+    .fechas-bg .rdrCalendarWrapper{
+        width: 100%;
+        align-items: center;
+        max-width: 848px;
+    }
+}
+
+@media (min-width:575.99px) and (max-width: 991.98px){
+
+    .contenedor-reservas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+    }
+
+    .fechas-boton-reserva{
+        width: 394px;
+    }
+
+    .fechas-bg h1{
+        padding: 20px 30px 0px;
+    }
+
+    .fechas-calendario{
+        padding: 0px 30px;
+    }
+
+    .fechas-bg .rdrCalendarWrapper{
+        width: 100%;
+        max-width: 760px;
+    }
+
+    .fechas-bg .rdrMonths{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .fechas-bg {
+        max-width: 420px;
+        min-width: 420px;
+    }
+    
+    .fechas-calendario{
+        width: 100%;
+    }
+
+    .contenedor-reservas{
+        flex-direction: column;
+        min-height: 120px;
+        padding: 10px 5px 35px;
+        justify-content: space-around;
+    }
+
+    .fechas-boton-reserva{
+        width: 100%;
+    }
+
+    .fechas-bg h1{
+        padding: 12px 10px 0px;
+    }
+}
+

@@ -1,0 +1,22 @@
+[
+    {
+    "id":1,
+    "imgUrl":"https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+    "nombre":"Hotel"
+    },
+    {
+    "id":2,
+    "imgUrl":"https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "nombre":"Hostel"
+    },
+    {
+    "id":3,
+    "imgUrl":"https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1560&q=80",
+    "nombre":"Departamento"
+    },
+    {
+    "id":4,
+    "imgUrl":"https://images.unsplash.com/photo-1621262331990-19861196e3ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    "nombre":"B&B"
+    }
+]

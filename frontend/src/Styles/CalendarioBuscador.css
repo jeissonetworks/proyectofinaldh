@@ -1,0 +1,12 @@
+.calendarWrap input {
+    width: 422px;
+    height: 40px;
+}
+
+@media (min-width: 991.99px){
+    
+    .App .rdrCalendarWrapper{
+        align-items: initial;
+    }
+
+}

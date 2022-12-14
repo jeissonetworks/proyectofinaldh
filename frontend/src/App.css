@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --db-color-1: #1DBEB4;
+  --db-color-2: #383B58;
+  --db-color-3: #545776;
+  --db-color-4: #F3F1ED;
+  --db-color-blanco: #FFFFFF;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+#root{
+  width: 100%;
+  position: relative;
+  z-index: -100;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  z-index: -100;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-body{
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  z-index: -100;
+}
+
+.navigation{
+  display: none;
+  }
+
+@media (max-width: 991.98px) {
+  .navigation{
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .App-body{
+    width: 100%;
+  }
+}

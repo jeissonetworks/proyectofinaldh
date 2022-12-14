@@ -1,0 +1,227 @@
+html {
+    box-sizing: border-box;
+    font-style: normal;
+  }
+  
+  *,
+  *::after,
+  ::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    background-color: rgb(196, 196, 196, 0.1);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .error{
+    border: 1px solid rgba(255, 0, 0, 0.524) !important;   
+    box-shadow: 0px 0px 5px 1px rgba(255, 0, 0, 0.524) !important;
+  }
+
+  .label-error{
+    color:rgba(255, 0, 0, 0.524) ;
+  }
+
+  .message-error{
+    color: red !important;
+    display: block !important;
+    color: #b00020;
+    font-size: 13px;
+    text-align: end !important;
+  }
+
+  .errorMessageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 33%;  
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    width: 33%;
+    text-align: left;
+  }
+  
+  form {
+    color: #383B58;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  form input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    color: #383b58;
+    font-size: 12px;
+    font-weight: 500;
+    height: 40px;
+    margin-top: 7px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .input label{
+    text-align: left;
+  }
+  
+  form input:focus {
+    border: 1px solid #1DBEB4;
+    box-shadow: 0px 0px 5px 1px rgba(29, 190, 180, 0.8);
+  }
+  
+  .form h2 {
+    color: #1DBEB4;
+    font-size: 24px;
+    font-weight: 700;
+    height: 40px;
+    text-align: center;
+  }
+  
+  .boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+    margin-bottom: 18px;
+  }
+
+  #full-name{
+    width: 49%;
+  }
+
+  .full-name p{
+    margin-top: 5px;
+    display: none;
+  }
+
+  #fullname{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+
+  .form-sign-up{
+    display: none;
+  }
+  
+  .form-sign-up-error{
+    height: 15px;
+  }
+  .form-sign-up-error p{
+    display: block;
+    color: rgba(255, 0, 0, 0.524) !important;
+  }
+  
+  .form-sign-up-success p{
+    display: block;
+    color: #063a22 !important;
+  }
+  
+  .boton-sign-up {
+    border: none;
+    background-color: #1DBEB4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 40px;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .boton-sign-up:hover {
+    background-color: #18a79d;
+    transition: 0.3s;
+  }
+  
+  .sign-up p {
+    color: #383B58;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .sign-up-input {
+    margin: 15px 0;
+  }
+  
+  .sign-up-input p {
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .link {
+    color: #4285f4;
+  }
+  
+  .link:hover {
+    color: #1DBEB4;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .boton {
+      margin-top: 63px;
+      margin-bottom: 16px;
+    }
+    .boton-sign-up {
+      width: 100%;
+    }
+    .form {
+      width: 80%;
+    }
+
+    #full-name{    
+      width: 100%;
+      margin-top: 2.75%;
+    }
+    #fullname{
+      flex-wrap: wrap;
+      margin-top: 10%;
+    }
+
+    .sign-up-input {
+      margin-top: 21px;
+    }
+    main {
+      height: 84.5vh;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+
+    .boton {
+      margin-top: 40px;
+      margin-bottom: 7px;
+    }
+    .form {
+      width: 72.5%;
+    }
+
+    #fullname{
+      margin-top: 9px;
+    }
+    
+    .sign-up-input {
+      margin-bottom: 0;
+      margin-top: 3%;
+    }
+    main {
+      height: 83.4vh;
+    }
+  }
+  
